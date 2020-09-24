@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.clickButton{
+  margin: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.clickButton:hover{
+  transform: scale(1.2);
+}
